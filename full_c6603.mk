@@ -67,4 +67,12 @@ PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/com.nxp.mifare.xml:system/etc/permissions/com.nxp.mifare.xml \
     frameworks/native/data/etc/handheld_core_hardware.xml:system/etc/permissions/handheld_core_hardware.xml \
 
+SOMC_CFG_SENSORS_LIGHT_LM3533 := yes
+SOMC_CFG_SENSORS_LIGHT_MAXRANGE := 1000
+SOMC_CFG_SENSORS_LIGHT_LM3533_PATH := /sys/bus/i2c/devices/0-0036
+
+SOMC_CFG_SENSORS_PROXIMITY_APDS9702 := yes
+
+SOMC_CFG_SENSORS_ACCEL_BMA250_INPUT := yes
+
 $(call inherit-product-if-exists, frameworks/native/build/phone-xhdpi-2048-dalvik-heap.mk)
