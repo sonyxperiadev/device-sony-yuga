@@ -31,7 +31,7 @@ Put the following snippet in .repo/local_manifests/c6603.xml
 ```
 
 Download the zip file with vendor binaries from:
-http://developer.sonymobile.com/downloads/tool/software-binaries-for-xperia-z/
+http://developer.sonymobile.com/downloads/tool/software-binaries-for-xperia-z-updated-version/
 
 In the root of your Android code tree unzip the SW_binaries_for_Xperia_Z_v2.zip,
 you should now have a directory named vendor/sony/lagan and vendor/sony/c6603 in your tree.
