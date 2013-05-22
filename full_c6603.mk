@@ -12,7 +12,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-$(call inherit-product, device/sony/lagan/device.mk)
+$(call inherit-product, device/sony/lagan/device_phone.mk)
 $(call inherit-product, vendor/sony/c6603/c6603-vendor.mk)
 
 PRODUCT_NAME := full_c6603
