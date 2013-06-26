@@ -23,6 +23,7 @@ Put the following snippet in `.repo/local_manifests/c6603.xml`
 <remove-project name="platform/hardware/qcom/power" />
 <remove-project name="platform/hardware/qcom/sensors" />
 <remove-project name="platform/hardware/invensense" />
+<remove-project name="platform/hardware/akm" />
 
 <project path="device/sony/lagan" name="device-sony-lagan" groups="device" remote="sony" revision="master" />
 <project path="device/sony/c6603" name="device-sony-c6603" groups="device" remote="sony" revision="master" />
