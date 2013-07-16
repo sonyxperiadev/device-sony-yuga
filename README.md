@@ -39,6 +39,7 @@ In the root of your Android code tree unzip the `SW_binaries_for_Xperia_Z_Xperia
 You should now have directories named `vendor/sony/lagan` and `vendor/sony/c6603` in your tree.
 
 * `repo sync`
+* `source ./build/envsetup.sh`
 * `lunch full_c6603-userdebug`
 * `make`
 
