@@ -15,7 +15,6 @@ Put the following snippet in `.repo/local_manifests/c6603.xml`
 <manifest>
 <remote  name="sony" fetch="git://github.com/sonyxperiadev/" />
 
-<remove-project name="platform/hardware/qcom/camera" />
 <remove-project name="platform/hardware/qcom/display" />
 <remove-project name="platform/hardware/qcom/keymaster" />
 <remove-project name="platform/hardware/qcom/media" />
