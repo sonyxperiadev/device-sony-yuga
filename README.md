@@ -8,7 +8,7 @@ To setup a tree and build images for the device do the following:
 `repo init` as described by Google over at:
 http://source.android.com/source/downloading.html
 
-Put the following snippet in `.repo/local_manifests/c6603.xml`
+Put the following snippet in `.repo/local_manifests/c6603.xml`:
 
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
@@ -33,7 +33,8 @@ Put the following snippet in `.repo/local_manifests/c6603.xml`
 Download the zip file with vendor binaries from:
 http://developer.sonymobile.com/knowledge-base/open-source/android-open-source-project-for-xperia-devices/
 
-In the root of your Android code tree unzip the `SW_binaries_for_Xperia_Z_Xperia_Tablet_Z_v3.zip`.
+In the root of your Android code tree unzip the `SW_binaries_for_Xperia_AOSP_KK_MR2_v1.zip`.
+
 
 You should now have directories named `vendor/sony/lagan` and `vendor/sony/c6603` in your tree.
 
